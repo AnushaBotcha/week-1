@@ -5,7 +5,7 @@ class arithmetic
   {
     float a,b;
     int option;
-    Scanimport ner input=new Scanner(System.in);
+    Scanner input=new Scanner(System.in);
 
     System.out.print("Enter the value of A : ");
     a=input.nextFloat();
